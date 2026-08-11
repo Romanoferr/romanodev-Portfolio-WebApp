@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-primaryBg text-textPrimary font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.skip-link {
+  position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden;
+}
+.skip-link:focus {
+  position: static; width: auto; height: auto; left: 0; top: 0; padding: 0.5rem 1rem; background: rgba(0,0,0,0.75); color: white; z-index: 50;
+}
+
+/* removed colorful background patterns for a more sober visual */
+
+
+/* Hero visual element and subtle tech grid */
+.hero-visual {
+  position: absolute;
+  right: 2rem;
+  top: 5rem;
+  width: 360px;
+  height: 260px;
+  pointer-events: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .hero-visual { display: none; }
+}
+
+.glow-brand { box-shadow: 0 6px 18px rgba(0,174,239,0.06); }
+
+
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0 }
+
