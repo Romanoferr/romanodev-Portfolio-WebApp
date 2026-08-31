@@ -8,7 +8,10 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur bg-black/30 border-b border-neutral-800">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-lg font-semibold text-white">Romanodev</div>
+        <a href="#root" className="flex items-center gap-2.5">
+          <img src="images/logo-nav.png" alt="Logo Romanodev" className="w-9 h-9 rounded-md object-cover" />
+          <span className="text-lg font-semibold text-white">Romanodev</span>
+        </a>
         <div className="flex items-center gap-8">
           <nav className="hidden md:flex items-center gap-10 text-sm text-neutral-300" aria-label="Main navigation">
             <a className="hover:text-white" href="#services">Serviços</a>
