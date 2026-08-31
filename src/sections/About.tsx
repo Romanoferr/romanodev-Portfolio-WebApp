@@ -14,16 +14,16 @@ export default function About() {
               <picture className="w-36 h-36 overflow-hidden rounded-full border border-borderColor bg-[#0c1320]">
                 <source
                   type="image/avif"
-                  srcSet="/images/me-320.avif 320w, /images/me-480.avif 480w, /images/me-640.avif 640w"
+                  srcSet="images/me-320.avif 320w, images/me-480.avif 480w, images/me-640.avif 640w"
                   sizes="(max-width: 768px) 144px, 240px"
                 />
                 <source
                   type="image/webp"
-                  srcSet="/images/me-320.webp 320w, /images/me-480.webp 480w, /images/me-640.webp 640w"
+                  srcSet="images/me-320.webp 320w, images/me-480.webp 480w, images/me-640.webp 640w"
                   sizes="(max-width: 768px) 144px, 240px"
                 />
                 <img
-                  src="/images/me-640.jpeg"
+                  src="images/me-640.jpeg"
                   alt={`${personal.name} — portrait`}
                   className="w-full h-full object-cover grayscale contrast-105"
                   loading="lazy"
