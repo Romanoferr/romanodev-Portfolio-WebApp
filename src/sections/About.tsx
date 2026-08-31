@@ -5,7 +5,7 @@ import { m as motion } from '../utils/motion'
 
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-surface2">
+    <section id="about" className="py-16 bg-primaryBg">
       <div className="max-w-7xl mx-auto px-4">
         <SectionTitle title="Sobre" subtitle="Quem sou e como trabalho" />
         <motion.div initial={{ opacity: 0, y: 6 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mt-4 rounded-md bg-neutral-900/30 p-6">

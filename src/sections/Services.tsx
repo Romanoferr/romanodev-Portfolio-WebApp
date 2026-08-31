@@ -13,9 +13,9 @@ const iconMap: Record<string, any> = {
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 bg-surface">
+    <section id="services" className="py-16 bg-primaryBg">
       <div className="max-w-7xl mx-auto px-4">
-        <SectionTitle title="Serviços" subtitle="O que eu faço — claro e direto." />
+        <SectionTitle title="Serviços" subtitle="O que eu faço - claro e direto." />
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         {services.map((s) => {
           const Icon = iconMap[s.id] || Briefcase

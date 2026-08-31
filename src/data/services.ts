@@ -15,8 +15,8 @@ export const services = [
     description: 'Conectar ferramentas e automatizar tarefas repetitivas para reduzir trabalho manual.'
   },
   {
-    id: 'qa',
-    title: 'QA e Testes Automatizados',
-    description: 'Testes que evitam regressões e garantem entregas confiáveis.'
+    id: 'seo',
+    title: 'SEO',
+    description: 'Amplie a visualização da sua marca com estratégias de SEO e campanhas digitais.'
   }
 ]

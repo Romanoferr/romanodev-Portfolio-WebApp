@@ -11,7 +11,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-16 bg-surface">
+    <section id="process" className="py-16 bg-primaryBg">
       <div className="max-w-7xl mx-auto px-4">
         <SectionTitle title="Processo de trabalho" subtitle="Uma abordagem prática e transparente." />
         <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">

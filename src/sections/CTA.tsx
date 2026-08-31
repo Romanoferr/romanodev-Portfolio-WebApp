@@ -4,7 +4,7 @@ import { m as motion } from '../utils/motion'
 
 export default function CTA() {
   return (
-    <section id="cta" className="py-16 bg-surface">
+    <section id="cta" className="py-16 bg-primaryBg">
       <div className="max-w-7xl mx-auto px-4">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="rounded-md p-8 text-center border border-[rgba(255,255,255,0.02)]">
           <h3 className="text-2xl font-semibold">Pronto para resolver um problema real?</h3>

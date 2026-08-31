@@ -11,7 +11,7 @@ const items = [
 
 export default function Differentials() {
   return (
-    <section id="differentials" className="py-16 bg-surface2">
+    <section id="differentials" className="py-16 bg-primaryBg">
       <div className="max-w-7xl mx-auto px-4">
         <SectionTitle title="Diferenciais" subtitle="O que diferencia nosso trabalho" />
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">

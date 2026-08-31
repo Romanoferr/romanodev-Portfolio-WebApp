@@ -10,6 +10,7 @@ import About from './sections/About'
 import CTA from './sections/CTA'
 import Contact from './sections/Contact'
 import SeoJsonLd from './components/SeoJsonLd'
+import FloatingWhatsApp from './components/ui/FloatingWhatsApp'
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   )
 }
